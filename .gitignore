@@ -18,6 +18,8 @@ kubeconfig
 .venv*
 # Taskfile
 .task
+# External-Secrets
+.bitwarden
 # Brew
 Brewfile.lock.json
 # intellij

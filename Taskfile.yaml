@@ -20,6 +20,8 @@ vars:
 
 includes:
   ansible: .taskfiles/Ansible/Taskfile.yaml
+  bitwarden: .taskfiles/Bitwarden/Taskfile.yaml
+  external-secrets: .taskfiles/ExternalSecrets/Taskfile.yaml
   kubernetes:
     aliases: ["k8s"]
     taskfile: .taskfiles/Kubernetes/Taskfile.yaml
